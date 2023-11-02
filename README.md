@@ -33,6 +33,14 @@ react-native run-ios
 ```
 This command will start the iOS simulator, and your app will run in the simulator for testing and development.
 
+## Tech notes:
+
+As backend / database for the APP I have used Firebase
+
+You will find all the configuration inside FirebaseConfig.ts
+
+Also I have used jest to test components and functions
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
