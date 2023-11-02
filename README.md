@@ -14,9 +14,11 @@ You need to set the JAVA_HOME environment variable to point to your Java install
 
 Once you have those two steps done, you can run in your cmd the following command to build your .apk for Android users:
 
+```bash
 npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 cd android
 ./gradlew assembleRelease
+```
 
 The apk will be generated in reactNativeTest\android\app\build\outputs\apk\release and will be called app-release.apk
 
